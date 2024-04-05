@@ -1,0 +1,8 @@
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+INSERT INTO books VALUES (1, "Song of Achilles", 100);
+INSERT INTO books VALUES (2, "Vow of Thieves", 100);
+INSERT INTO books VALUES (3, "Percy Jackson", 95);
+INSERT INTO books VALUES (4, "A Court of Thorns and Roses", 80);
+INSERT INTO books VALUES (5, "Red, White, and Royal Blue", 90);
+INSERT INTO books VALUES (6, "Six of Crows", 90);
+SELECT * FROM books;
